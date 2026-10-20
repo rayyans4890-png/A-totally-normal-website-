@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rayyan Shahid</title>
+  <meta name="description" content="Personal site of Rayyan Shahid. Notes on learning to code and playing Valorant.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body id="top">
+
+  <header class="site-header">
+    <a class="logo" href="#top" data-sound="taco-bell-bong">Rayyan Shahid</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="#top" data-sound="get-out-tuco">Home</a>
+      <a href="#about" data-sound="are-you-serious-right-now-bro">About</a>
+      <a href="#notes">Notes</a>
+      <a href="#contact" data-sound="its-raining-tacos">Contact</a>
+      <button type="button" class="login-btn" data-sound="indian">Log in</button>
+    </nav>
+  </header>
+
+  <main class="content">
+
+    <section class="intro">
+      <h1>Hi, I'm Rayyan. <span class="deco" data-sound="i-woke-up-in-a-new-bugatti" aria-hidden="true">&#10022;</span></h1>
+      <p>I'm a beginner coder and a gamer. I write about what I'm learning and what I play. This is my small corner of the internet.</p>
+    </section>
+
+    <section id="notes">
+      <h2 data-sound="clash-royale">Recent Notes</h2>
+
+      <article class="post">
+        <h3>My first website: what broke and what I learned</h3>
+        <p>Most of my bugs were missing semicolons. Learning to read the browser console changed everything.</p>
+        <a href="#notes" data-sound="indian">Read more</a>
+      </article>
+
+      <article class="post">
+        <h3>Hitting Diamond in Valorant</h3>
+        <p>Finally Diamond. I still think my crosshair placement is the reason I got here, and I plan to keep working on it.</p>
+        <a href="#notes" data-sound="indian">Read more</a>
+      </article>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>I'm a beginner coder learning HTML, CSS, and JavaScript one small project at a time. When I'm not coding, I'm playing Valorant.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Want to say hello? Leave your email and I may reply.</p>
+      <form class="signup" action="#" method="post">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email">
+        <button type="button" data-sound="taco-bell-bong">Subscribe</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <nav aria-label="Footer">
+      <a href="#notes">RSS</a>
+      <a href="#contact" data-sound="clash-royale">Privacy</a>
+      <a href="#top" data-sound="get-out-tuco">Back to top</a>
+    </nav>
+    <p class="copyright" data-sound="i-woke-up-in-a-new-bugatti">&copy; 2026 Rayyan Shahid</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
